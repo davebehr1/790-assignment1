@@ -17,7 +17,7 @@ Timetabling.o: Timetabling.cpp
 	g++ -c Timetabling.cpp
 
 clean:
-	g++ *.o timetable
+	rm *.o timetable
 
 
 
